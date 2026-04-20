@@ -92,7 +92,7 @@ end
 local function FetchVersionHashWithFallback(version: string?): string
 	local ok, versionHash = pcall(FetchVersionHash, version)
 
-	if not ok then
+	if not ok or versionHash == nil then
 		versionHash = FetchLatestVersionHash()
 	end
 

@@ -9,6 +9,7 @@ The tools that were used in the making of Differ are as follows:
 	
 - cxmeel's DumpParser
 	- Used for getting instance properties
+	- The version is slightly forked, as the `FetchVersionHashWithFallback` is modified to be more reliable by adding an extra check
 	- https://github.com/cxmeel/dump-parser
 	
 - PepeElToro41's UILabs
